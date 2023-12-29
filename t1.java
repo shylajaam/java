@@ -10,7 +10,8 @@ public class ListProcessor {
 
         // Task: Use Copilot to complete the code to print each word in uppercase
         for (String word : words) {
-            // TODO: Complete the code here
+            String uppercaseWord = word.toUpperCase();
+            System.out.println(uppercaseWord);
         }
     }
 }
